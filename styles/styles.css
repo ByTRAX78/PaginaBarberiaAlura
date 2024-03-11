@@ -1,0 +1,193 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, sans-serif;
+  
+}
+.Logo{
+  height: 100%;
+  
+
+}
+
+.header{
+    position: relative;
+    background-color: #5c5c5c;
+    width: 100%;
+    height: 10vw;
+    z-index: 1000;
+}
+.wave{
+    position: relative;
+   bottom: 10px;
+    filter: drop-shadow(0px 7px 6px rgb(32, 32, 32));
+    z-index: 10;
+}
+
+
+.caja{
+
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    height: 10vw;
+    
+}
+
+.option a{
+ 
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 25px;
+    filter: drop-shadow(0px 7px 6px rgb(0, 0, 0));
+    transition: all 0.2s;
+
+}
+
+.option a:hover{
+ 
+    color: rgb(143, 161, 150);
+    text-decoration: underline;
+    font-size: 28px;
+    transition: all 0.2s;
+   
+
+}
+
+.principal{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+     
+}
+
+.principal div{
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 20%;
+    transition: all 0.2s;
+}
+.principal h2{
+    font-size: 2rem;
+    
+}
+.principal p{
+    font-size: 20px;
+    padding: 20px;
+}
+.principal .precio{
+   font-weight: bold;
+   font-size: 30px;
+}
+
+.principal img{
+   width: 80%;
+   height: auto;
+}
+.content:hover{
+   
+    border-color: #018866;
+    box-shadow: 0px 0px 7px 5px #018866;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+.content:active{
+   
+    border-color: #3ec7a5;
+    box-shadow: 0px 0px 7px 5px #5a9284;
+    transition: all 0.2s;
+}
+.principal div:hover{
+    transform: scale(1.1);
+    transition: all 0.2s;
+}
+.footer{
+   
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #5c5c5c;
+}
+.footer p{
+
+    font-size: 2rem;
+    font-weight: bold;
+    filter: drop-shadow(0px 1px 2px rgb(0, 0, 0));
+}
+.footer img{
+    filter: drop-shadow(0px 10px 6px rgb(32, 32, 32));
+    width: 20%;
+    height: auto;
+
+}
+.caja img{
+    
+    filter: drop-shadow(0px 7px 6px rgb(255, 255, 255));
+
+}
+
+.waveTwo{
+    position: relative;
+    top: 10px;
+}
+.contentFooter{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    align-items: center;
+    
+}
+@media (max-width: 1010px) {
+    .option a{
+ 
+       
+        font-size: 20px;
+        transition: all 0.2s;
+    
+    }
+    .option a:hover{
+ 
+        
+        font-size: 23px;
+        transition: all 0.2s;
+       
+    
+    }
+    .footer p{
+
+        font-size: 1.5rem;
+        transition: all 0.2s;
+    }
+    .principal h2{
+        font-size: 1.5rem;
+        transition: all 0.2s;
+    }
+    .principal .precio{
+        font-weight: bold;
+        font-size: 25px;
+     }
+     .principal p{
+        font-size: 17px;
+        padding: 20px;
+    }
+    .footer{
+   
+        display: flex;
+        width: 100%;
+        height: 220px;
+        background-color: #5c5c5c;
+    }
+  }
+
